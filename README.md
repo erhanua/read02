@@ -62,3 +62,5 @@
 - **`ls projects/new-project`:**
 
    This command lists the contents of the "new-project" directory, which is inside the "projects" directory. Given the previous commands, the output will show the file "newfile.md", indicating that this file exists inside the "new-project" directory.
+
+  This site was built using [GitHub Pages](https://github.com/erhanua/read02.git).
