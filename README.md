@@ -19,23 +19,23 @@
 
 # Explanation of Commands
 
-- `pwd` (Print Working Directory):
+- **`pwd` (Print Working Directory):**
 
    This command displays the full pathname of the current working directory. It tells you where you currently are in the filesystem.
 
-- `ls` (List):
+- **`ls` (List):**
 
    This command lists the contents of the current directory. It can be used with various options to display additional information (e.g., `ls -l` for a long listing format that includes file permissions, number of links, owner, group, size, and time of last modification).
 
-- `cd` (Change Directory):
+- **`cd` (Change Directory):**
 
    This command is used to change the current working directory. By itself, `cd` typically returns you to your home directory. You can specify a path to navigate to a different directory (e.g., `cd /path/to/directory`).
 
-- `mkdir` (Make Directory):
+- **`mkdir` (Make Directory):**
 
    This command creates a new directory with the specified name. For example, `mkdir new_directory` will create a directory named "new_directory" in the current location.
 
-- `touch`:
+- **`touch`:**
 
    This command is used to create empty files or update the access and modification timestamps of existing files. For instance, `touch filename.txt` will either create an empty file named "filename.txt" if it doesn't exist or update its timestamps if it does.
 
@@ -43,22 +43,22 @@
 
 # Scenario Explanation
 
-- `cd projects`:
+- **`cd projects`:**
 
    This command changes the current working directory to a directory named "projects". After this command, any operations you perform will be relative to the "projects" directory.
 
-- `mkdir new-project`:
+- **`mkdir new-project`:**
 
    This command creates a new directory named "new-project" inside the current working directory, which is "projects". So, you'll have a structure like `projects/new-project`.
 
-- `touch new-project/newfile.md`:
+- **`touch new-project/newfile.md`:**
 
    This command creates an empty file named "newfile.md" inside the "new-project" directory. The structure now looks like: `projects/new-project/newfile.md`.
 
-- `cd ..`:
+- **cd ..`:**
 
    This command moves you up one directory level, which means you'll go back to the parent directory of "projects". If you were initially in a directory named "home" (for example), after this command, you'll be back in "home".
 
-- `ls projects/new-project`:
+- **`ls projects/new-project`:**
 
    This command lists the contents of the "new-project" directory, which is inside the "projects" directory. Given the previous commands, the output will show the file "newfile.md", indicating that this file exists inside the "new-project" directory.
